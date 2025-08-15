@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+            <h1>FORMULÁRIO</h1>
+            <p>Garanta que o valor B é maior que A !</p>
+            <p class="formula">B > A ?</p>
+            <form class="meu-form" action="">
+                <label for="campo-a">Campo A:</label> <br>
+                <input type="number" name="campo-a" id="campo-a" placeholder="DIGITE UM NÚMERO"> <br>
+                <label for="campo-b">Campo B:</label> <br>
+                <input type="number" name="campo-b" id="campo-b" placeholder="DIGITE UM NÚMERO"> <br>
+                <button type="button" id="botao" onclick="calcular()">Calcular</button>
+                <p id="res"></p>
+            </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
